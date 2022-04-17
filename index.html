@@ -3,38 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!__ displays site properly based on user's device __>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <title>Frontend Mentor | QR code component</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
+        <title>Frontend Mentor | QR code component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!__ Feel free to remove these styles or customise in your own stylesheet 👍 __>
+            <style>
+                .attribution {
+                    font-size: 11px;
+                    text-align: center;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                }
 
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
+                .attribution a {
+                    color: hsl(228, 45%, 44%);
+                }
+            </style>
 </head>
 
 <body>
 
-    <div class="card">
-        <div class="card--qr-con">
-            <img src="images/image-qr-code.png" alt="QR COde" class="card--qr-code">
-        </div>
-        <div class="card--text-con">
-            <h3 class="card--title">Improve your front-end skills by building projects</h3>
-            <p class="card--desc">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card__qr-con">
+                <img src="images/image-qr-code.png" alt="QR COde" class="card__qr-code">
+            </div>
+            <div class="card__text-con">
+                <h3 class="card__title">Improve your front-end skills by building projects</h3>
+                <p class="card__desc">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+            </div>
         </div>
     </div>
 
